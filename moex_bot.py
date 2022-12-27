@@ -2,6 +2,7 @@ import datetime
 import io
 import logging
 import time
+import PyPDF2
 from PyPDF2 import PdfReader
 from urllib.request import Request, urlopen
 from logging.handlers import RotatingFileHandler
